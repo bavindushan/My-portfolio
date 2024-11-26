@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: #ff00ff;
+    cursor: none;
+
+}
+
+html {
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling if needed */
+}
+
+.cursor {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #0ff;
+    /* Neon cyan */
+    border-radius: 50%;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+    pointer-events: none;
+    /* Ensure it doesn't block interactions */
+    transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+    /* Hides scrollbar for WebKit-based browsers */
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+main section h1 {
+    color: #ff00ff;
+}
+
+main section p {
+    margin-top: 20px;
+    color: #f8f3f8;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 calc(33% - 20px);
+}
+
+.project h3 {
+    color: #fdcbb9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+.carousel-inner {
+    height: auto;
+}
+
+.carousel-inner h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.carousel-inner p {
+    text-align: center;
+    color: aliceblue;
+}
+
+.projects-carousel {
+    width: 500px;
+}
+
+.projec-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projec-container-inner {
+    text-align: center;
+}
+
+.projec-container-inner-2 h2 {
+    margin-left: 220px;
+}
+
+.carousel-inner-h3 {
+    font-size: x-large;
+}
+
+.certificate-list {
+    margin-left: 90px;
+    width: 700px;
+}
+
+.card {
+    background-color: black;
+    border: 1px solid #ccc;
+}
+
+.card h5 {
+    color: #f8f3f8;
+}
+
+.contact-form {
+    margin-left: 20px;
+    margin-right: 200px;
+    
+}
+
+.contact-form input {
+    margin-bottom: 10px;
+    margin-right: 300px;
+}
+
+.contact-form textarea {
+    margin-bottom: 10px;
+    height: 20vh;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container h6 {
+    text-align: start;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 0.5px;
+    margin-left: 10px;
+}
+
+.header-container-p1 {
+    color: #616161;
+}
+
+.header-container-p2 {
+    text-align: justify;
+}
+.contact{
+    display: flex;
+}
+.contact-icons{
+    display: flex;
+    margin-top: 180px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.img-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+}

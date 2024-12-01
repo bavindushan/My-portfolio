@@ -72,6 +72,7 @@ main {
 }
 
 main section h1 {
+    margin-top: 70px;
     color: #ff00ff;
 }
 
@@ -85,10 +86,11 @@ main section p {
     flex-wrap: wrap;
 }
 
-#project {
+#projects {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
+    margin-top: 150px;
     flex: 1 1 calc(33% - 20px);
 }
 
@@ -105,6 +107,8 @@ footer {
 
 .carousel-inner {
     height: auto;
+    border: 1px solid #4f4f4f;
+    padding: 10px;
 }
 
 .carousel-inner h3 {
@@ -136,28 +140,65 @@ footer {
     margin-left: 220px;
 }
 
+.p-heading {
+    font-size: 31px;
+}
+
 .carousel-inner-h3 {
-    font-size: x-large;
+    color: #ccc;
+    font-size: large;
+    text-decoration-line: underline;
 }
 
 .certificate-list {
-    margin-left: 90px;
-    width: 700px;
+    margin-left: 30px;
+    width: 600px;
 }
 
 .card {
     background-color: black;
     border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    height: 40vh;
+}
+
+.card-body a {
+    margin-top: 50px;
+}
+
+.card-body p {
+    margin-top: 20px;
 }
 
 .card h5 {
-    color: #f8f3f8;
+    color: #ccc;
+    font-size: large;
+    text-decoration-line: underline;
+}
+
+.card-text {
+    color: #ccc;
+    font-size: medium;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.contact h2 {
+    margin-left: 20px;
+
 }
 
 .contact-form {
-    margin-left: 20px;
+    margin-left: 80px;
     margin-right: 200px;
-    
+
 }
 
 .contact-form input {
@@ -170,6 +211,14 @@ footer {
     height: 20vh;
 }
 
+.form-edit {
+    background-color: black;
+}
+
+.form-edit::placeholder {
+    color: #ccc;
+}
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -177,8 +226,8 @@ footer {
 
 .header-container h6 {
     text-align: start;
-    color: aliceblue;
-    margin-top: 10px;
+    color: rgb(180, 180, 180);
+    margin-top: 50px;
     margin-bottom: 0.5px;
     margin-left: 10px;
 }
@@ -188,23 +237,28 @@ footer {
 }
 
 .header-container-p2 {
+    color: #ccc;
     text-align: justify;
 }
-.contact{
+
+.contact {
     display: flex;
 }
-.contact-icons{
+
+.contact-icons {
     display: flex;
     margin-top: 180px;
 }
-.icon-container{
+
+.icon-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.img-icon{
+
+.img-icon {
     margin-left: 10px;
     margin-right: 10px;
 }

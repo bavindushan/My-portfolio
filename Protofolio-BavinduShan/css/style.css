@@ -113,12 +113,14 @@ footer {
 
 .carousel-inner h3 {
     text-align: center;
-    color: aliceblue;
+    color: #ccc;
 }
 
 .carousel-inner p {
-    text-align: center;
-    color: aliceblue;
+    text-align: justify;
+    color: #ccc;
+    margin: 5px;
+    margin-bottom: 10px;
 }
 
 .projects-carousel {
@@ -158,9 +160,6 @@ footer {
 .card {
     background-color: black;
     border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-left: 70px;
     height: 60vh;
 }
@@ -171,17 +170,15 @@ footer {
 
 .card-body p {
     margin-top: 20px;
+    color: #ccc;
+    font-size: medium;
+    text-align: justify;
 }
 
 .card h5 {
     color: #ccc;
     font-size: large;
     text-decoration-line: underline;
-}
-
-.card-text {
-    color: #ccc;
-    font-size: medium;
 }
 
 .contact {

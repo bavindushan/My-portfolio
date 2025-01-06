@@ -7,6 +7,7 @@ document.addEventListener('mousemove', (e) => {
     cursor.style.top = `${e.pageY}px`;
 });
 // Initialize EmailJS
+
 emailjs.init("ZZlw1VUIyqwMyEb1R"); // Replace with your EmailJS User ID
 
 // Add event listener to the form
